@@ -1,0 +1,12 @@
+task hello << {
+    println 'Hello Earth'
+}
+main.doFirst {
+    println 'Hello Venus'
+}
+main.doLast {
+    println 'Hello Mars'
+}
+hello << {
+    println 'Hello Jupiter'
+}

@@ -1,0 +1,5 @@
+<project>
+    <target name="main" depends="intro">
+        <echo>Hello, from Ant</echo>
+    </target>
+</project>

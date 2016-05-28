@@ -1,0 +1,6 @@
+task hello << {
+    println 'Hello world!'
+}
+main.doLast {
+    println "Greetings from the $main.name task."
+}

@@ -1,0 +1,8 @@
+tasks.create(name: 'main') << {
+    println "main"
+}
+
+tasks.create(name: 'copy', type: Copy) {
+    from(file('srcDir'))
+    into(buildDir)
+}

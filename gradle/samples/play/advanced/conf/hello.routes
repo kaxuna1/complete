@@ -1,0 +1,1 @@
+GET     /:name                controllers.main.HelloController.index(name)

@@ -1,0 +1,4 @@
+task hello
+
+println main.name
+println project.hello.name
